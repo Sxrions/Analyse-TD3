@@ -19,6 +19,9 @@ public class AppTest
         super( testName );
     }
 
+    /**
+     * Test pour App.hello()
+     */
     public void testHelloEmpty(){
         assertEquals("Hello World!", App.hello());
     }
