@@ -10,6 +10,11 @@ public class App {
         System.out.println(hello());
     }
 
+    /**
+     * Fonction qui retourne "Hello World!"
+     * 
+     * @return "Hello World!"
+     */
     public static String hello(){
         return "Hello World!";
     }
